@@ -1,3 +1,9 @@
+
+body{
+    margin: 0px;
+}
+
+
 .full-dashboard{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -20,19 +26,71 @@
 .sidebar{
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .home-options, .setting-options{
     display: flex;
     color: white;
+    gap: 15px;
 }
 
 .home-options img, .setting-options img{
    align-self: center;
-   color: white;
+   filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(254deg) brightness(102%) contrast(105%);
+   padding-left: 15%;
+}
+
+.dashboard{
+    padding-top: 20px;
+    padding-left: 15%;
+    color: white;
+}
+
+/* Styling the header */
+
+.header{
+    display: grid;
+    grid-template-rows: 70px 150px;
+    gap: 50px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 30px 100px;
+}
+
+.top .user-id{
+    justify-self: end;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 
 
+.user-id{
+    display: grid;
+    grid-template-columns: 30px 50px 110px;
+    gap: 15px;
+    align-items: center;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+/* Styling the main body */
+
+.main-body{
+    background-color: #e2e8f0;
+}
 
 
 
