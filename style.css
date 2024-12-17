@@ -7,7 +7,7 @@ body{
 .full-dashboard{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 200px 1fr;
 }
 
 .header{
@@ -42,7 +42,7 @@ body{
 }
 
 .dashboard{
-    padding-top: 20px;
+    padding-top: 3px;
     padding-left: 15%;
     color: white;
 }
@@ -52,7 +52,7 @@ body{
 .header{
     display: grid;
     grid-template-rows: 70px 150px;
-    gap: 50px;
+    gap: 30px;
 }
 
 .top{
@@ -63,6 +63,18 @@ body{
 .search{
     display: grid;
     grid-template-columns: 30px 100px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.search-input{
+    height: 25px;
+    width: 550px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e2e8f0;
+    
 }
 
 .top .user-id{
@@ -82,8 +94,39 @@ body{
 .bottom{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 25px;
 }
 
+.bottom-left{
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-left p {
+    margin-bottom: 0;
+    margin-top: 21px;
+}
+
+.bottom-left h3{
+    margin-top: 0;
+}
+
+.bottom-right{
+    display: flex;
+    margin-left: 50% ;
+    gap: 25px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.bottom-right button{
+    height: 40px;
+    background-color: #1a92d3;
+    border: none;
+    width: 200px;
+    color: white;
+    border-radius: 50px;
+}
 
 
 /* Styling the main body */
