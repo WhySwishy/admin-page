@@ -198,5 +198,35 @@ body{
     font-size: small;
 }
 
+.project-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    padding: 25px;
+}
+
+.project-boxes{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.upper-part p{
+    margin-top: 2px;
+}
+
+.lower-part{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.project-heading{
+    padding-left: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+}
 
 
